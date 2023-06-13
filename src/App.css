@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* custom styles */
+.flex {
+  display: flex;
+}
+.justify {
+  justify-content: space-between;
+}
+.align {
+  align-items: center;
+}
+.flex50 {
+  flex: 0 1 50%;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+.shipping {
+  border: 3px solid tomato;
+  margin-right: 50px;
+
+}
+
+.ship {
+  color:rgb(0,218,218);
+  font-size: 32px;
+  font-weight: 400;
+
+}
+.one {
+  margin-left: 30px;
+}
+.check {
+  color: green;
+}
+.billing {
+
+  border: 3px solid tomato;
+}
+.bill {
+  color:rgb(0,218,218);
+  font-size: 32px;
+  font-weight: 400;
+
+}
+.address {
+  width: 450px;
+  padding: 10px ;
+  font-size: 14px;
+  margin-top: 10px;
+
+}
+.address:hover{
+  border: 1px solid blue;
+}
+.last {
+  margin-bottom: 30px;
+}
+label {
+  font-size: 24px;
+}
